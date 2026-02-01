@@ -71,3 +71,6 @@ Then visit http://localhost:8000 in your browser
 - **Backend**: Python, Flask, SQLAlchemy, SQLite
 - **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
 - **Database**: SQLite
+
+
+![alt text](image-2.png)
