@@ -23,6 +23,7 @@ class TeamMember(db.Model):
     gender = db.Column(db.String(20), nullable=False)
     department = db.Column(db.String(100), nullable=False)
     role = db.Column(db.String(100), nullable=False)
+    remark = db.Column(db.Text, nullable=True)  # New field for remarks
 
     def to_dict(self):
         return {
@@ -30,7 +31,8 @@ class TeamMember(db.Model):
             'name': self.name,
             'gender': self.gender,
             'department': self.department,
-            'role': self.role
+            'role': self.role,
+            'remark': self.remark
         }
 
 # Create tables
