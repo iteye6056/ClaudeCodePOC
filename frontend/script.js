@@ -13,6 +13,7 @@ const nameInput = document.getElementById('name');
 const genderInput = document.getElementById('gender');
 const departmentInput = document.getElementById('department');
 const roleInput = document.getElementById('role');
+const remarkInput = document.getElementById('remark');
 
 // Load all members when page loads
 document.addEventListener('DOMContentLoaded', loadMembers);
