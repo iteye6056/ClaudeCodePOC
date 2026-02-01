@@ -65,7 +65,8 @@ def create_member():
         name=data['name'],
         gender=data['gender'],
         department=data['department'],
-        role=data['role']
+        role=data['role'],
+        remark=data.get('remark', None)  # Handle optional remark field
     )
 
     db.session.add(new_member)
